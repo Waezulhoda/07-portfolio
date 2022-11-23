@@ -48,7 +48,7 @@ a:hover{
 }
 img{
     margin-top: 1em;
-    width: 55%;
+    width: 60%;
 }
 
 .about{
@@ -227,11 +227,14 @@ button:hover{
     .desktop-hero{
         display: flex;
         flex-direction: row-reverse;
+        justify-content: space-between;
     }
     .hero img{
-        width: 60vh;
+        width: 90%;
     }
     .about{
+        width: 50%;
+        /* border: red 2px solid; */
         padding-right:0.5em ;
         padding-left: 0;
         text-align: start;
